@@ -1,5 +1,6 @@
 import calculator
 import convertermodulo
+import listaestudiantes
 
 print("funciones para sumar, restar, multiplicar y dividir")
 sumar_result = calculator.sumar(5, 3)
@@ -25,3 +26,6 @@ fahrenheit = 70
 celsius = convertermodulo.fahrenheit_to_celsius(fahrenheit)
 print("Temperatura en Fahrenheit:", fahrenheit)
 print("Temperatura en Celsius:", celsius)
+
+print("Importando y mostrando nombres de estudiantes")
+listaestudiantes.mostrar_nombres()
