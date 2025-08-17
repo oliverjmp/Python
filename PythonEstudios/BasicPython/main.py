@@ -1,6 +1,6 @@
-import BasicosPython.BasicPython.calculator as calculator
-import BasicosPython.BasicPython.convertermodulo as convertermodulo
-import BasicosPython.BasicPython.listaestudiantes as listaestudiantes
+import calculator as calculator
+import convertermodulo as convertermodulo
+import listaestudiantes as listaestudiantes
 
 print("funciones para sumar, restar, multiplicar y dividir")
 sumar_result = calculator.sumar(5, 3)
