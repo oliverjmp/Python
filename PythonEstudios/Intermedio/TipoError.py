@@ -1,16 +1,19 @@
 # 1. Genera un SyntaxError al imprimir una cadena sin paréntesis.
 
-print "Hola, mundo"
+#print "Hola, mundo" # Descomentan para error
+
 # 2. Genera un NameError intentando usar una variable no definida.
-
+variable_no_definida = 10  # Comentar para error
 print(variable_no_definida)
+
 # 3. Genera un IndexError accediendo a un índice inexistente de una lista.
-
 mi_lista = [1, 2, 3]
-print(mi_lista[5])
-# 4. Genera un ModuleNotFoundError al importar un módulo inexistente.
+#print(mi_lista[5]) #Descomentan para error
+print(mi_lista[2])
 
-import unicorn_rainbows
+# 4. Genera un ModuleNotFoundError al importar un módulo inexistente.
+#import unicorn_rainbows #Descomentan para error
+import pandas as pd  
 
 # 5. Genera un AttributeError accediendo a un atributo que no existe.
 texto = "Hola, mundo"
